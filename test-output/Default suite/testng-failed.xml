@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="nopecommercetests.Main_Test">
+        <methods>
+          <include name="close_url"/>
+          <include name="login_screen"/>
+          <include name="add_book_to_cart"/>
+          <include name="register_screen"/>
+          <include name="open_url"/>
+        </methods>
+      </class> <!-- nopecommercetests.Main_Test -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
